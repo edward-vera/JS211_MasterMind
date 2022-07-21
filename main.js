@@ -30,11 +30,18 @@ const getRandomInt = (min, max) => {
 
 const generateHint = () =>  {
   // your code here
+  let guessArray = guess.split(' ');
+  console.log(guess);
+  let solutionArray = solution.split(' ');
+  console.log(solution);
+  let correctLetterLocation = 0;
+  console.log(0);
 }
 
 const mastermind = (guess) => {
   solution = 'abcd'; // Comment this out to generate a random solution
   // your code here
+  return 'You guessed it!'
 }
 
 
@@ -45,6 +52,7 @@ const getPrompt = () =>  {
     getPrompt();
   });
 }
+
 
 // Tests
 
